@@ -55,4 +55,12 @@
 
     	return this.parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
+
+    $.fn.greatGreatGreatGreatGreatGrandGreatGrestparent = function() {
+        if(console && console.log){
+            console.log("You just broke the Internet.");
+        }
+
+        return this.parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
+    };
 }( jQuery ));
