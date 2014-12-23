@@ -56,7 +56,7 @@
     	return this.parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
-    $.fn.greatGreatGreatGreatGreatGrandGreatGrestparent = function() {
+    $.fn.greatGreatGreatGreatGreatGrandGreatGreatparent = function() {
         if(console && console.log){
             console.log("You just broke the Internet.");
         }
