@@ -64,7 +64,11 @@
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
-    $.fn.greatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {      
+    $.fn.greatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
+        if(console && console.log){
+            console.log("Does the code you write ever work?");
+        }
+
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 }( jQuery ));
