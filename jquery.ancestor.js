@@ -71,4 +71,12 @@
 
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
+
+    $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
+        if(console && console.log){
+            console.log("ಠ_ಠ");
+        }
+
+        return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
+    };
 }( jQuery ));
