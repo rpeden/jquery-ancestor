@@ -87,4 +87,8 @@
 
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
+    
+    $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
+        return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
+    };
 }( jQuery ));
