@@ -89,6 +89,9 @@
     };
     
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
+        if(console && console.log){
+            console.log("﴾͡๏̯͡๏﴿ O'RLY?");
+        }
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 }( jQuery ));
