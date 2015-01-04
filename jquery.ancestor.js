@@ -90,7 +90,7 @@
     
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
         if(console && console.log){
-            console.log("﴾͡๏̯͡๏﴿ O'RLY?");
+            console.log("ಠ▃ಠ");
         }
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
