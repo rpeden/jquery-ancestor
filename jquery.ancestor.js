@@ -94,4 +94,11 @@
         }
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
+    
+    $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
+        if(console && console.log){
+            console.log("╚(•⌂•)╝");
+        }
+        return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
+    };
 }( jQuery ));
