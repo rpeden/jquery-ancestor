@@ -16,10 +16,7 @@
     };
  
  	$.fn.greatGreatGrandparent = function() {
-    	if(console && console.log){
-    		console.log("You should be ashamed of yourself.");
-    	}
-
+    	insultUser("You should be ashamed of yourself.");
     	return this.parent().parent().parent().parent();   
     };
 
