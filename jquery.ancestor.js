@@ -1,5 +1,10 @@
 (function( $ ) {
- 
+    var insultUser = function(insultMessage){
+        if(console && console.log){
+            console.log(insultMessage);
+        }
+    }
+
     $.fn.grandparent = function() {
     	if(console && console.log){
     		console.log("You should really find a better way to do this.");
