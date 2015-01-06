@@ -6,18 +6,12 @@
     }
 
     $.fn.grandparent = function() {
-    	if(console && console.log){
-    		console.log("You should really find a better way to do this.");
-    	}
-
+    	insultUser("You should really find a better way to do this.");	
     	return this.parent().parent();   
     };
 
     $.fn.greatGrandparent = function() {
-    	if(console && console.log){
-    		console.log("Have you been drinking?");
-    	}
-
+    	insultUser("Have you been drinking?")
     	return this.parent().parent().parent();   
     };
  
