@@ -31,10 +31,7 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGrandparent = function() {
-    	if(console && console.log){
-    		console.log("Are you a former COBOL programmer?");
-    	}
-
+    	insultUser("Are you a former COBOL programmer?");
     	return this.parent().parent().parent().parent().parent().parent().parent(); 
     };
 
