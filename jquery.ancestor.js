@@ -36,10 +36,7 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGrandparent = function() {
-    	if(console && console.log){
-    		console.log("If you keep this up, you're going to break the Internet.");
-    	}
-
+    	insultUser("If you keep this up, you're going to break the Internet.");
     	return this.parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
