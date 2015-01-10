@@ -15,7 +15,7 @@
     	return this.parent().parent().parent();   
     };
  
- 	$.fn.greatGreatGrandp  rent = function() {
+ 	$.fn.greatGreatGrandparent = function() {
     	insultUser("You should be ashamed of yourself.");
     	return this.parent().parent().parent().parent();   
     };
