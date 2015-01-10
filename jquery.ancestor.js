@@ -15,7 +15,7 @@
     	return this.parent().parent().parent();   
     };
  
- 	$.fn.greatGreatGrandparent = function() {
+ 	$.fn.greatGreatGrandp  rent = function() {
     	insultUser("You should be ashamed of yourself.");
     	return this.parent().parent().parent().parent();   
     };
@@ -41,11 +41,8 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGrandparent = function() {
-        if(console && console.log){
-            console.log("You just broke the Internet.");
-        }
-
-        return this.parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
+ insultUser("You just broke the Internet.");
+       return this.parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
