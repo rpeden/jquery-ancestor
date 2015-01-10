@@ -41,8 +41,8 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGrandparent = function() {
- insultUser("You just broke the Internet.");
-       return this.parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
+        insultUser("You just broke the Internet.");
+        return this.parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
