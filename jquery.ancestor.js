@@ -46,10 +46,7 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
-        if(console && console.log){
-            console.log("Does the code you write ever work?");
-        }
-
+        insultUser("Does the code you write ever work?");
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
