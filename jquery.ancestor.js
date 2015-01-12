@@ -51,10 +51,7 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
-        if(console && console.log){
-            console.log("ಠ_ಠ");
-        }
-
+        insultUser("ಠ_ಠ");
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
 
