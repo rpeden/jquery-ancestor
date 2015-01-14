@@ -56,17 +56,12 @@
     };
 
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
-        if(console && console.log){
-            console.log("(╯°□°）╯︵ ┻━┻");
-        }
-
+        insultUser("(╯°□°）╯︵ ┻━┻");
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
     
     $.fn.greatGreatGreatGreatGreatGreatGreatGreatGreatGreatGreatGrandparent = function() {
-        if(console && console.log){
-            console.log("ಠ▃ಠ");
-        }
+        insultUser("ಠ▃ಠ");
         return this.parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent(); 
     };
     
